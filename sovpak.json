@@ -1,0 +1,30 @@
+{
+  "$schema": "https://sovereign.dev/schemas/package/1.0.0",
+  "id": "gitops",
+  "name": "GitOps Pipeline",
+  "version": "1.0.0",
+  "description": "GitOps pipeline — Flux, Kustomize, and deployment reconciliation",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Sovereign Infrastructure Team",
+    "url": "https://opensovereign.dev"
+  },
+  "kind": "package",
+  "taxonomy": {
+    "tier": "opt",
+    "relations": [
+      { "type": "depends", "target": "sovctl" }
+    ]
+  },
+  "tags": ["infrastructure", "gitops", "ci-cd"],
+  "upstream": {
+    "name": "Flux CD",
+    "homepage": "https://fluxcd.io",
+    "license": "Apache-2.0"
+  },
+  "contents": {
+    "plugin": null,
+    "gitops": null,
+    "container": null
+  }
+}
