@@ -1,9 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/RoxiMakesGames/sovpak/main/schema/sovpak-v3.schema.json",
+  "$schema": "https://sovereign.dev/schemas/package/4.0.0",
   "id": "gitops",
   "name": "GitOps Pipeline",
   "version": "1.0.0",
-  "description": "GitOps pipeline \u2014 Flux, Kustomize, and deployment reconciliation",
+  "description": "GitOps pipeline — Flux, Kustomize, and deployment reconciliation",
   "license": "AGPL-3.0",
   "author": {
     "name": "Sovereign Infrastructure Team",
@@ -28,10 +28,5 @@
     "name": "Flux CD",
     "homepage": "https://fluxcd.io",
     "license": "Apache-2.0"
-  },
-  "contents": {
-    "plugin": null,
-    "gitops": null,
-    "container": null
   }
 }
